@@ -1,0 +1,5 @@
+Genel olarak Random Forest tabanlı imputasyon yöntemi çoğu özellikte daha başarılı sonuç vermiştir. 
+KNN’de K değeri değiştikçe sonuçlar da değişmiş, ancak her özellik için tek bir K değeri 
+en iyi sonucu vermemiştir. Eksik veri oranı %5’ten %15 ve %25’e çıktıkça yöntemlerin performansı genel 
+olarak düşmüş; MAE ve RMSE artarken R² değerleri azalmıştır. Ancak bazı özelliklerde küçük farklılıklar 
+görüldüğü için bu düşüş her durumda tamamen düzenli olmamıştır.

@@ -1,0 +1,44 @@
+# Python virtual environments (at any directory level)
+.venv/
+venv/
+env/
+.env/
+
+# Python bytecode, build artifacts, and tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Jupyter temporary files; keep notebooks and their saved results
+.ipynb_checkpoints/
+.jupyter/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+.aws/
+.codex/
+.agents/
+.vscode/
+.idea/
+
+# Operating system and editor temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Keep assignment datasets, charts, and reports in version control.
